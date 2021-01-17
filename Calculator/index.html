@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="display">
+            <input id="resultado" class="resultado" type="text">
+        </div>
+        <div class="buttons grid">
+            <button onclick="calcular('acao', 'c')" type="button" id="btn" class="btn larger">C</button>
+            <button onclick="calcular('acao', '%')" type="button" id="btn" class="btn">%</button>
+
+            <button onclick="calcular('acao', '/')"  type="button" id="btn" class="btn">/</button>
+            <button onclick="calcular('valor', '7')"  type="button" id="btn" class="btn">7</button>
+            <button onclick="calcular('valor', '8')"  type="button" id="btn" class="btn">8</button>
+
+            <button onclick="calcular('valor', '9')" type="button" id="btn" class="btn">9</button>
+            <button onclick="calcular('acao', '*')"  type="button" id="btn" class="btn">*</button>
+            <button onclick="calcular('valor', '4')" type="button" id="btn" class="btn">4</button>
+
+            <button onclick="calcular('valor', '5')" type="button" id="btn" class="btn">5</button>
+            <button onclick="calcular('valor', '6')" type="button" id="btn" class="btn">6</button>
+            <button onclick="calcular('acao', '-')"  type="button" id="btn" class="btn">-</button>
+
+            <button onclick="calcular('valor', '1')" type="button" id="btn" class="btn">1</button>
+            <button onclick="calcular('valor', '2')" type="button" id="btn" class="btn">2</button>
+            <button onclick="calcular('valor', '3')" type="button" id="btn" class="btn">3</button>
+
+            <button onclick="calcular('acao', '+')"  type="button" id="btn" class="btn">+</button>
+            <button onclick="calcular('valor', '0')" type="button" id="btn" class="btn bigger" >0</button>
+            <button onclick="calcular('acao', '.')" type="button" id="btn" class="btn">.</button>
+
+            <button onclick="calcular('acao', '=')" type="button" id="btn" class="btn equal">=</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style0.css">
+</head>
+<body>
+    <div class="estilo1" id="mensagem">Modificando a classe do elemento</div>
+    <hr />
+    <button class="button" onclick="modificaClasse()" >Aplicar classe</button>
+    <button class="button" onclick="classePadrao()" >Voltar ao Padrão</button>
+
+    <script>
+        function modificaClasse() {
+            document.getElementById('mensagem').className = 'estilo2'
+        }
+
+        function classePadrao() {
+            document.getElementById('mensagem').className = 'estilo1'
+        }
+    </script>
+</body>
+</html>

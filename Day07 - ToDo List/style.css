@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: #292929;
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.apagar {
+  background: rgb(255, 37, 37);
+  padding: 4px;
+  border: none;
+  border-radius: 5px;
+  color: #FFF;
+  transition: .4s;
+  display: inline-block;
+  
+}
+
+.apagar:hover {
+  background: #FFF;
+  border: 1px solid rgb(255, 37, 37);
+  color: rgb(255, 37, 37);
+}
+
+.input-tarefa {
+  border: 1px solid #292929;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  min-height: 30px;
+}
+
+.input-tarefa:focus {
+  border-color: rgb(255, 37, 37);
+}
+
+.btn-tarefa {
+  background-color: #292929;
+  min-height: 30px;
+  border: none;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  margin: 0 -5px;
+  color: #FFF;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.tarefas {
+  text-transform: uppercase;
+  color: #808080;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: justify;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 5px #292929;
+  
+}
+
+span{
+  color:rgb(255, 37, 37)
+}

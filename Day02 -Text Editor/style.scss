@@ -1,0 +1,16 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.toolbar {}
+.tool-list {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+}
+.tool--btn{
+    border: none;
+    padding: 5rem;
+}

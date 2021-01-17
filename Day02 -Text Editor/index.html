@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="toolbar">
+        <ul class="tool-list">
+            <li class="tool">
+                <button 
+                    type="button" 
+                        data-command='justifyLeft'
+                            class="tool--btn"></a>
+                            <i class=' fas fa-align-left'></i>
+            </li>
+            <li class="tool">
+                <button 
+                    type="button" 
+                    data-command="justifyCenter"
+                            class="tool--btn"></a>
+                            <i class=' fas fa-align-center'></i>
+            </li>
+            <li class="tool">
+                <button 
+                    type="button" 
+                    data-command="bold"
+                            class="tool--btn"></a>
+                            <i class=' fas fa-bold'></i>
+            </li>
+            <li class="tool">
+                <button 
+                    type="button" 
+                    data-command="italic"
+                            class="tool--btn"></a>
+                            <i class=' fas fa-italic'></i>
+            </li>
+            <li class="tool">
+                <button 
+                    type="button"
+                    data-command="underline"
+                            class="tool--btn"></a>
+                            <i class=' fas fa-underline'></i>
+            </li>
+            <li class="tool">
+                <button 
+                    type="button"
+                    data-command="insertOrderedList"
+                            class="tool--btn"></a>
+                            <i class=' fas fa-list-ol'></i>
+            </li>
+            <li class="tool">
+                <button 
+                    type="button"
+                    data-command="insertUnorderedList"
+                            class="tool--btn"></a>
+                            <i class=' fas fa-list-ul'></i>
+            </li>
+            <li class="tool">
+                <button 
+                    type="button" 
+                    data-command="createlink"
+                            class="tool--btn"></a>
+                            <i class=' fas fa-link'></i>
+            </li>
+        </ul>
+    </div>
+
+    <div id="output"
+    contenteditable="true"></div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ccc;
+}
+
+.content {
+    width: 500px;
+    height: 250px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+div h2 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    border-radius: 6px;
+}

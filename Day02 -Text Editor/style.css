@@ -1,0 +1,42 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: center;
+}
+.tool-list {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    padding: 0;
+    margin: 1rem;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.tool--btn{
+    display: block;
+    width: 73px;
+    border: none;
+    padding: 1rem;
+    font-size: 20px;
+    margin: 0 .5px;
+}
+
+.tool--btn:hover {
+    background: #54AAE6;
+}
+
+#output{
+    width: 600px;
+    height: 400px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    margin: 1rem;
+    padding: 1rem;
+    margin: 0 auto;
+    border-radius: 20px;
+}

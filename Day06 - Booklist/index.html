@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booklist App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="display-4 text-center">Lista de <span class="text-danger">Livros </span></h1>
+    <form action="" id="book-form">
+        <div>
+            <label for="title">Título</label>
+            <input type="text" id="title" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="autor">Autor</label>
+            <input type="text" id="autor" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="isbn">ISBN</label>
+            <input type="text" id="isbn" class="form-control">
+        </div>
+        <input type="submit" value="Adicionar Livro" class="btn btn-dark btn-block text-uppercase">
+    </form>
+    <table class="table table-striped mt-5">
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Autor</th>
+                <th>ISBN</th>
+            </tr>
+        </thead>
+        <tbody id="book-list"></tbody>
+    </table>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
