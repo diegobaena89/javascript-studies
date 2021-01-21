@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browser Object Model</title>
+    <script>
+      let height = window.screen.availHeight;
+      let width = window.screen.availWidth;
+
+      //document.write(`A altura do navegador é:  ${height}`)
+      //document.write(`A largura do navegador é: ${width}`)
+
+      if(width < 500) {
+          document.write('Lógica para impressão do menu versão mobile')
+      } else {
+          document.write('Lógica para impressão do menu versão web')
+      }
+    </script>
+  </head>
+  <body></body>
+</html>

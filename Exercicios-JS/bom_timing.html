@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timing</title>
+    <script>
+      // setTimeout execute uma única vez a ação
+      // setInterval executa a ação de forma indeterminada
+
+      /*setTimeout(function() {
+            document.write('Teste')
+        }, 2000)*/
+
+      let i = 5;
+
+      let x = setInterval(function () {
+        document.write(i);
+        i--;
+        
+
+        if (i === 0) {
+          clearInterval(x)
+        }
+      }, 1000);
+    </script>
+  </head>
+  <body></body>
+</html>
